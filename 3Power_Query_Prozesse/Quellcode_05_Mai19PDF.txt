@@ -1,0 +1,20 @@
+let
+    Quelle = Pdf.Tables(Parameter1, [Implementation="1.3"]),
+    Page1 = Quelle{0}[Data],
+    SpaltenWeg = Table.RemoveColumns(Page1,{"Column1", "Column2", "Column4", "Column5", "Column6", "Column7", "Column8", "Column9", "Column10", "Column12", "Column13", "Column14", "Column15", "Column16", "Column17", "Column18", "Column19", "Column21", "Column22", "Column23", "Column24", "Column25", "Column26", "Column27", "Column28"}),
+    ObereZeilenWeg = Table.Skip(SpaltenWeg,2),
+    UntereZeilenWeg = Table.RemoveLastN(ObereZeilenWeg,18),
+    RgNummer = UntereZeilenWeg[Column3]{11},
+    RgBetrag = UntereZeilenWeg[Column11]{33},
+    RgDatum = UntereZeilenWeg[Column20]{0},
+    RechnungsNrSpalte = Table.AddColumn(UntereZeilenWeg, "Rechnungsnummer", each RgNummer),
+    RechnungsBetragSpalte = Table.AddColumn(RechnungsNrSpalte, "Rechnungsbetrag", each RgBetrag),
+    Datumsspalte = Table.AddColumn(RechnungsBetragSpalte, "Datum", each Date.From(RgDatum)),
+    #"Geänderter Typ" = Table.TransformColumnTypes(Datumsspalte,{{"Datum", type date}}),
+    EurErsetzt = Table.ReplaceValue(#"Geänderter Typ"," EUR","",Replacer.ReplaceText,{"Rechnungsbetrag"}),
+    RechnungErsetzt = Table.ReplaceValue(EurErsetzt,"Rechnung ","",Replacer.ReplaceText,{"Rechnungsnummer"}),
+    Datentypen = Table.TransformColumnTypes(RechnungErsetzt,{{"Datum", type date}, {"Rechnungsbetrag", Currency.Type}}),
+    ErsteSpaltenWeg = Table.RemoveColumns(Datentypen,{"Column3", "Column11", "Column20"}),
+    LetzteZeilenWeg = Table.RemoveLastN(ErsteSpaltenWeg,33)
+in
+    LetzteZeilenWeg
