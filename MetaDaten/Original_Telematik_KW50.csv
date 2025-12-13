@@ -1,0 +1,49 @@
+Fahrzeugkennung;Fahrzeuggruppen;Strecke;Betriebsdauer;Fahrzeit;Parkdauer;D;ES;DK;Datum
+K IT 1494;2-Sitzer;54 km;11:00 hh:mm;2:52 hh:mm;8:07 hh:mm;54 km;-;-;09.12.2024
+K IT 1591;2-Sitzer;56 km;19:50 hh:mm;5:00 hh:mm;14:49 hh:mm;56 km;-;-;10.12.2024
+K IT 1215;5-Sitzer;40 km;2:24 hh:mm;1:35 hh:mm;0:49 hh:mm;40 km;3500 km;-;11.12.2024
+K IT 1315;50-Sitzer;0 km;2:14 hh:mm;0:16 hh:mm;1:58 hh:mm;0 km;1590 km;-;12.12.2024
+K IT 1317;12-Sitzer;-;-;-;-;-;-;850 km;13.12.2024
+K IT 1323;2-Sitzer;414 km;32:13 hh:mm;15:55 hh:mm;16:17 hh:mm;414 km;-;1200 km;14.12.2024
+K IT 1415;5-Sitzer;1016 km;53:42 hh:mm;37:32 hh:mm;16:10 hh:mm;1016 km;-;680 km;15.12.2024
+K IT 1432;5-Sitzer;527 km;47:23 hh:mm;38:51 hh:mm;8:31 hh:mm;527 km;1200 km;-;16.12.2024
+K IT 1535;5-Sitzer;697 km;47:11 hh:mm;33:07 hh:mm;14:04 hh:mm;697 km;-;-;17.12.2024
+K IT 1537;5-Sitzer;969 km;58:02 hh:mm;41:02 hh:mm;17:00 hh:mm;969 km;-;1600;18.12.2024
+K IT 1616;5-Sitzer;519 km;48:13 hh:mm;47:47 hh:mm;0:25 hh:mm;519 km;2500 km;-;19.12.2024
+K IT 1617;5-Sitzer;841 km;53:54 hh:mm;22:33 hh:mm;31:20 hh:mm;841 km;-;-;20.12.2024
+K IT 1618;5-Sitzer;815 km;53:03 hh:mm;51:35 hh:mm;1:28 hh:mm;815 km;-;-;21.12.2024
+K IT 1621;5-Sitzer;557 km;52:01 hh:mm;38:02 hh:mm;13:58 hh:mm;557 km;1600 km;-;22.12.2024
+K IT 1629;50-Sitzer;1427 km;51:42 hh:mm;43:43 hh:mm;7:58 hh:mm;1427 km;-;-;23.12.2024
+K IT 1740;50-Sitzer;627 km;34:08 hh:mm;23:26 hh:mm;10:41 hh:mm;627 km;-;1200 km;24.12.2024
+K IT 1741;50-Sitzer;2251 km;63:07 hh:mm;55:47 hh:mm;7:19 hh:mm;2251 km;-;-;25.12.2024
+K IT 1742;50-Sitzer;2336 km;62:42 hh:mm;52:55 hh:mm;9:47 hh:mm;2336 km;-;-;26.12.2024
+K IT 1743;10-Sitzer;1234 km;70:23 hh:mm;47:02 hh:mm;23:21 hh:mm;830 km;1560 km;450 km;27.12.2024
+K IT 1748;12-Sitzer;687 km;22:05 hh:mm;18:48 hh:mm;3:17 hh:mm;687 km;-;-;28.12.2024
+K IT 1818;8-Sitzer;852 km;55:31 hh:mm;38:57 hh:mm;16:34 hh:mm;852 km;-;-;29.12.2024
+K IT 1825;10-Sitzer;1490 km;71:46 hh:mm;39:50 hh:mm;31:56 hh:mm;1003 km;2800 km;904 km;30.12.2024
+K IT 1826;10-Sitzer;1224 km;56:04 hh:mm;31:45 hh:mm;24:18 hh:mm;911 km;2700 km;850 km;31.12.2024
+K IT 1827;25-Sitzer;1275 km;65:43 hh:mm;37:41 hh:mm;28:01 hh:mm;925 km;3500 km;1200 km;01.01.2025
+K IT 1828;10-Sitzer;1259 km;68:02 hh:mm;40:00 hh:mm;28:01 hh:mm;829 km;1590 km;680 km;02.01.2025
+K IT 1829;50-Sitzer;1244 km;51:26 hh:mm;44:39 hh:mm;6:47 hh:mm;1244 km;-;-;03.01.2025
+K IT 1835;12-Sitzer;2269 km;63:04 hh:mm;58:07 hh:mm;4:57 hh:mm;2269 km;-;650 km;04.01.2025
+K IT 1836;12-Sitzer;1638 km;51:41 hh:mm;44:06 hh:mm;7:34 hh:mm;1638 km;-;1200 km;05.01.2025
+K IT 1837;12-Sitzer;2180 km;61:27 hh:mm;53:20 hh:mm;8:06 hh:mm;2180 km;-;-;06.01.2025
+K IT 1945;5-Sitzer;917 km;49:13 hh:mm;41:29 hh:mm;7:43 hh:mm;917 km;3020 km;450 km;07.01.2025
+K IT 1946;5-Sitzer;1111 km;47:27 hh:mm;34:49 hh:mm;12:37 hh:mm;1111 km;1500 km;-;08.01.2025
+K IT 1947;5-Sitzer;798 km;57:09 hh:mm;51:36 hh:mm;5:33 hh:mm;798 km;-;-;09.01.2025
+K IT 1948;5-Sitzer;572 km;50:37 hh:mm;40:50 hh:mm;9:47 hh:mm;572 km;-;-;10.01.2025
+K IT 1949;12-Sitzer;1618 km;53:40 hh:mm;52:36 hh:mm;1:03 hh:mm;1618 km;1980 km;80 km;11.01.2025
+K IT 1950;50-Sitzer;1604 km;50:57 hh:mm;48:08 hh:mm;2:49 hh:mm;1604 km;-;-;12.01.2025
+K IT 1951;12-Sitzer;2182 km;63:57 hh:mm;57:59 hh:mm;5:58 hh:mm;2182 km;-;860 km;13.01.2025
+K IT 1952;50-Sitzer;1351 km;40:16 hh:mm;36:01 hh:mm;4:15 hh:mm;1351 km;-;520 km;14.01.2025
+K IT 1953;50-Sitzer;1755 km;56:35 hh:mm;52:25 hh:mm;4:09 hh:mm;1755 km;-;-;15.01.2025
+K IT 1954;12-Sitzer;1645 km;52:23 hh:mm;41:24 hh:mm;10:58 hh:mm;1645 km;2450 km;-;16.01.2025
+K IT 1955;50-Sitzer;1238 km;46:51 hh:mm;38:42 hh:mm;8:09 hh:mm;1238 km;-;1200 km;17.01.2025
+K IT 1956;8-Sitzer;561 km;33:30 hh:mm;23:09 hh:mm;10:21 hh:mm;561 km;-;-;18.01.2025
+K IT 1957;5-Sitzer;610 km;52:01 hh:mm;40:12 hh:mm;11:49 hh:mm;610 km;-;-;19.01.2025
+K IT 1958;5-Sitzer;651 km;43:42 hh:mm;33:15 hh:mm;10:27 hh:mm;651 km;-;490 km;20.01.2025
+K IT 1959;4-Sitzer;605 km;52:06 hh:mm;37:30 hh:mm;14:36 hh:mm;605 km;-;-;21.01.2025
+K IT 1028;4-Sitzer;455 km;34:32 hh:mm;16:39 hh:mm;17:52 hh:mm;455 km;1980 km;-;22.01.2025
+K IT 1029;8-Sitzer;1004 km;51:40 hh:mm;48:01 hh:mm;3:39 hh:mm;1004 km;-;-;23.01.2025
+K IT 1115;5-Sitzer;1124 km;50:26 hh:mm;34:24 hh:mm;16:02 hh:mm;1124 km;-;-;24.01.2025
+K IT 1615;2-Sitzer;1 km;13:19 hh:mm;1:58 hh:mm;11:20 hh:mm;1 km;-;860 km;25.01.2025
