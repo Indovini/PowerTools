@@ -1,9 +1,0 @@
-KWnullwerteKW_TextRaus = Table.SelectRows(KopfzeilenUeberschrift, each ([KW] <> null and [KW] <> "KW")),
-    SpaltennameFahrzeug = Table.RenameColumns(KWnullwerteKW_TextRaus,{{"AC HH 1009", "Fahrzeug"}}),
-    DatentypAnpassung = Table.TransformColumnTypes(SpaltennameFahrzeug,{{"Datum", type date}, {"Betriebsdauer", type time}, {"Fahrzeit", type time}, {"Parkdauer", type time}, {"Strecke", Int64.Type}, {"D", Int64.Type}, {"Stops", Int64.Type}, {"Fahrer", type text}, {"Ziel", type text}, {"Start", type text},{"Kilometerstand Ende", Int64.Type}, {"Kilometerstand Start", Int64.Type}}),
-    MinusZeichenDurchNullErsetzen = Table.ReplaceValue(DatentypAnpassung,"-",null,Replacer.ReplaceValue,{"Column18", "Column19"}),
-    LetzteSpaltenDatentypAnpassen = Table.TransformColumnTypes(MinusZeichenDurchNullErsetzen,{{"Column18", Int64.Type}, {"Column19", Int64.Type}}),
-    FehlerParkdauerErsetzt = Table.ReplaceErrorValues(LetzteSpaltenDatentypAnpassen, {{"Parkdauer", #time(0, 0, 0)}}),
-    SpalteFalseWeg = Table.RemoveColumns(FehlerParkdauerErsetzt,{"false"})
-in
-    SpalteFalseWeg
