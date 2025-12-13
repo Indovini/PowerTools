@@ -1,0 +1,21 @@
+let
+	//Minimumdatum aus Start-Tabelle
+	StartDatum = Date.StartOfYear(List.Min(Table.Column(StartTabelle,"Datum"))),
+
+	//Maxdatum aus Start-Tabelle
+ 	EndDatum = Date.EndOfYear(List.Max(Table.Column(StartTabelle,"Datum"))),
+
+	//Datumsliste aus Min- und Maxdatum
+ 	Quelle = List.Dates(StartDatum, Number.From(EndDatum)-Number.From(StartDatum)+1 ,#duration(1,0,0,0)),
+
+	//Liste in Tabelle verwandeln
+    	Tabellenkonvertierung = Table.FromList(Quelle, Splitter.SplitByNothing(), null, null, ExtraValues.Error),
+
+	//Spaltenname Datum
+    	DatumSpalte = Table.RenameColumns(Tabellenkonvertierung ,{{"Column1", "Datum"}}),
+
+	//Datentyp Datum
+    	Typaenderung = Table.TransformColumnTypes(DatumSpalte ,{{"Datum", type date}})
+ 
+in
+    	Typaenderung
